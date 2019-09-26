@@ -14,6 +14,7 @@
 		16812AA8233CE891002575AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16812AA7233CE891002575AF /* Assets.xcassets */; };
 		16812AAB233CE891002575AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16812AA9233CE891002575AF /* LaunchScreen.storyboard */; };
 		16812AAE233CE891002575AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16812AAD233CE891002575AF /* main.m */; };
+		16812AB8233CE8EB002575AF /* HTWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16812AB7233CE8EB002575AF /* HTWeakProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		16812AAA233CE891002575AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16812AAC233CE891002575AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16812AAD233CE891002575AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16812AB6233CE8EB002575AF /* HTWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTWeakProxy.h; sourceTree = "<group>"; };
+		16812AB7233CE8EB002575AF /* HTWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		16812A9A233CE88F002575AF /* iOSCodeSnippets */ = {
 			isa = PBXGroup;
 			children = (
+				16812AB5233CE8BA002575AF /* Snippets */,
 				16812A9B233CE88F002575AF /* AppDelegate.h */,
 				16812A9C233CE88F002575AF /* AppDelegate.m */,
 				16812A9E233CE88F002575AF /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				16812AAD233CE891002575AF /* main.m */,
 			);
 			path = iOSCodeSnippets;
+			sourceTree = "<group>";
+		};
+		16812AB5233CE8BA002575AF /* Snippets */ = {
+			isa = PBXGroup;
+			children = (
+				16812AB6233CE8EB002575AF /* HTWeakProxy.h */,
+				16812AB7233CE8EB002575AF /* HTWeakProxy.m */,
+			);
+			path = Snippets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 				16812AA3233CE88F002575AF /* ViewController.m in Sources */,
 				16812A9D233CE88F002575AF /* AppDelegate.m in Sources */,
 				16812AAE233CE891002575AF /* main.m in Sources */,
+				16812AB8233CE8EB002575AF /* HTWeakProxy.m in Sources */,
 				16812AA0233CE88F002575AF /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
